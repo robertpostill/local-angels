@@ -10,6 +10,12 @@
   left: 40%;
 }
 
+.article-body {
+  font-size: 1.5em;
+  text-align: justify;
+  padding: 20px 30px 10px 50px;
+}
+
 .main {
   width: 100%;
   /*background-color: red;*/
