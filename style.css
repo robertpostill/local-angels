@@ -1,48 +1,71 @@
-body {
-  background-color: #B0C4DE;
-}
-
-.nav-bar {
+.header {
   display: block;
-  border: 5px solid red;
+  width: 100%;
+  height: 105px;
+  /*border-style: solid;*/
+  /*border-color: red;*/
+}
+.nav {
+  position: absolute;
+  left: 40%;
 }
 
-ul {
+.main {
+  width: 100%;
+  /*background-color: red;*/
+  display: block;
+  text-align: center;
+}
+.main h1 {
+  font-size: 5em;
+  /*padding: 50px auto 1em auto;*/
+  margin: 1em;
+}
+
+.main h2 {
+  font-size: 2em;
+  padding: 1em auto 1em auto;
+  margin: 0.5em;
+}
+
+.buttons {
+  margin-top: 10px;
+  /*border-style: solid;*/
+  /*border-color: red;*/
+  height: 21em;
+  width: 100%;
+  text-align: center;
+  float: left;
+}
+.indi-butts {
+  height: 20em;
+  width: 20em;
+  margin-left: 3em;
+  margin-right: 3em;
+  display: inline-block;
+  border-style: solid;
+  /*border-color: red;*/
+  border-radius: 50%;
+}
+
+#need, #want, #supply {
+  position: absolute;
   margin: 0;
   padding: 0;
-}
-li {
-  list-style: none;
-  display: inline-block;
-}
-a{
-  text-decoration: none;
-}
-h1 {
-  display: block;
-  text-align: center;
-  font-size: 400%;
-}
-h2 {
-  display: block;
-  text-align: center;
-  font-size: 180%;
-}
-.buttons{
-  /*border: 5px solid red;*/
-  min-height: 100px;
-  width: 70%;
-  text-align: center;
-  margin: auto;
-  display: block;
+  font-size: 2em;
 }
 
-.indi-butts {
-  /*background-color: white;*/
-  margin: 30px;
-  border: 1px solid;
-  border-radius: 50%;
-  height: 250px;
-  width: 250px;
-  font-size: 80px;
+#need {
+  left: 9.2em;
+  top: 18em;
+}
+
+#want {
+  left: 22.5em;
+  top: 18em;
+}
+
+#supply {
+  left: 35.2em;
+  top: 17em;
 }
