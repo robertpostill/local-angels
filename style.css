@@ -1,3 +1,12 @@
+.forms {
+  vertical-align: middle;
+  text-align: center;
+}
+/*
+.text-bar {
+  display: block;
+}*/
+
 .header {
   display: block;
   width: 100%;
