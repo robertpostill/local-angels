@@ -1,6 +1,7 @@
-local angels
+# local angels
 
-freelance
-front end static pages
-bootstrap ui
-back end not required yet 
+- freelance
+- front end static pages
+- bootstrap ui
+- back end not required yet
+- smile

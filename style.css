@@ -1,0 +1,48 @@
+body {
+  background-color: #B0C4DE;
+}
+
+.nav-bar {
+  display: block;
+  border: 5px solid red;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+a{
+  text-decoration: none;
+}
+h1 {
+  display: block;
+  text-align: center;
+  font-size: 400%;
+}
+h2 {
+  display: block;
+  text-align: center;
+  font-size: 180%;
+}
+.buttons{
+  /*border: 5px solid red;*/
+  min-height: 100px;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+.indi-butts {
+  /*background-color: white;*/
+  margin: 30px;
+  border: 1px solid;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  font-size: 80px;
+}
