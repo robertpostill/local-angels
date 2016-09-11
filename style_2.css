@@ -1,0 +1,88 @@
+body {
+  font-size: 87.5%;
+  font-family: Arial, 'Lucinda Sans Unicode';
+  line-height: 1.5;
+  text-align: left;
+}
+
+.body {
+  margin: 0 auto;
+  width: 80%;
+  clear: left;
+}
+
+a {
+  text-decoration: none;
+}
+a:link, a:visited {
+
+}
+a:hover, a:active {
+
+}
+.nav-bar {
+  display: block;
+}
+.nav-bar img {
+  display: inline-block;
+  width: 15%;
+  height: auto;
+  margin: 0.5% 0;
+}
+
+.nav-bar nav {
+  position: absolute;
+  display: inline-block;
+  background-color: #FFF;
+  top: 30px;
+  height: 40px;
+  width: 84%;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.nav-bar nav ul{
+  list-style: none;
+  margin: 0 auto;
+}
+
+.nav-bar nav ul li{
+  float: left;
+  display: inline;
+}
+
+.nav-bar nav a:link, .nav-bar nav a:visited {
+  color: #black;
+  display: inline-block;
+  padding: 10px 25px;
+  /* come back to assign height */
+}
+
+.title {
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 60px;
+}
+.title h2 {
+  font-size: 20px;
+}
+
+
+
+.round-button {
+  margin: 40px 40px;
+  border-radius: 50%;
+  display: inline-block;
+  border-style: solid;
+  height: 250px;
+  width: 250px;
+}
+
+.round-button a{
+  position: relative;
+  top: 120px;
+  left: 90px;
+}
