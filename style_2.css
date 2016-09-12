@@ -1,4 +1,5 @@
 body {
+  /*background-color: red;*/
   font-size: 87.5%;
   font-family: Arial, 'Lucinda Sans Unicode';
   line-height: 1.5;
@@ -22,19 +23,23 @@ a:hover, a:active {
 }
 .nav-bar {
   display: block;
+  border-bottom: solid;
+  border-top: solid;
+  border-width: 2px;
 }
 .nav-bar img {
   display: inline-block;
   width: 15%;
   height: auto;
-  margin: 0.5% 0;
+  margin: 0;
 }
 
 .nav-bar nav {
-  position: absolute;
+  position: relative;
   display: inline-block;
   background-color: #FFF;
-  top: 30px;
+  left: 80px;
+  top: 20px;
   height: 40px;
   width: 84%;
   border-radius: 5px;
@@ -48,6 +53,7 @@ a:hover, a:active {
 }
 
 .nav-bar nav ul li{
+  /*background-color: red;*/
   float: left;
   display: inline;
 }
@@ -70,7 +76,9 @@ a:hover, a:active {
   font-size: 20px;
 }
 
-
+.body article, .form {
+  margin-top: 50px;
+}
 
 .round-button {
   margin: 40px 40px;
